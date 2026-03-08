@@ -1,4 +1,4 @@
-# fly-high-travel-booking-website
+# fly-high-travel-blog-website
 Travel Blog Website
 
 Built using HTML, CSS, and JavaScript.
