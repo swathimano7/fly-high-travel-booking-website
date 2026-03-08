@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Blog - Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+
+<div class="logo">
+<img src="logo.webp" alt="Travel Logo">
+</div>
+<div class="head">
+        <h3>FLY HIGH</h3>
+    </div>
+<nav>
+<ul>
+<li><a href="travel.html">Home</a></li>
+<li><a href="destination.html">Destinations</a></li>
+<li><a href="Blog.html">Blog</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+</nav>
+
+</header>
+
+<!-- Page Title -->
+<section class="page-title">
+<h1>Travel Gallery</h1>
+<p>Beautiful moments from around the world</p>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery">
+
+<div class="gallery-container">
+
+<img src="paris.jpg" onclick="openImage(this)">
+<img src="bali.jpg" onclick="openImage(this)">
+<img src="switerland.jpg" onclick="openImage(this)">
+<img src="maldives.jpg" onclick="openImage(this)">
+<img src="japan.jpg" onclick="openImage(this)">
+<img src="italy.jpg" onclick="openImage(this)">
+<img src="russia.jpg" onclick="openImage(this)">
+<img src="belgi.jpg" onclick="openImage(this)">
+<img src="ireland.jpg" onclick="openImage(this)">
+<img src="africa.jpg" onclick="openImage(this)">
+
+</div>
+
+</section>
+
+<!-- Image Popup -->
+<div id="imagePopup" class="popup">
+<span onclick="closeImage()">X</span>
+<img id="popupImg">
+</div>
+
+<!-- Footer -->
+<footer>
+<p>© 2026 Travel Blog | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
